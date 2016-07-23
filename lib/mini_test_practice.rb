@@ -9,5 +9,13 @@ module MiniTestPractice
         return false
       end
     end
+
+    def even?(n)
+      if n % 2 == 0
+        return true
+      else
+        return false
+      end
+    end
   end
 end
